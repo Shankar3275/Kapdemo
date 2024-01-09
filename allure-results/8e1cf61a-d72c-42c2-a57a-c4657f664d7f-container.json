@@ -1,0 +1,1 @@
+{"uuid":"8e1cf61a-d72c-42c2-a57a-c4657f664d7f","name":"KapDemo.logout.tearDown","children":["65e9787e-0d1c-4c94-b5e7-c0b5d1a5848d"],"description":"","befores":[],"afters":[{"name":"tearDown","status":"broken","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1704448778936,"stop":1704448778937}],"start":1704448778935,"stop":1704448778937}

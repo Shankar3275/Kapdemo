@@ -1,0 +1,20 @@
+<suite name="All Test Suite">
+    <test name="tesing">
+        <classes>
+            <class name="KapDemo.Login"/>
+            <class name="KapDemo.Logout"/>
+            <class name="KapDemo.TicketCreation"/>
+            <class name="KapDemo.TicketSearchByTicketId"/>
+            <class name="KapDemo.TicketSearchByPhoneNumer"/>
+            <class name="KapDemo.TicketSearchByEmail"/>
+            <class name="KapDemo.ChatMessageTest"/>
+            <class name="KapDemo.CreateNote"/>
+            <class name="KapDemo.HistoryTab"/>
+            <class name="KapDemo.PastTicket"/>
+            <class name="KapDemo.SubTicket"/>
+            <class name="KapDemo.Disposition"/>
+            <class name="KapDemo.TicketReopen"/>
+            <class name="KapDemo.ViewOrder"/>
+        </classes>
+    </test>
+</suite>

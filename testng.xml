@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Inteleje test/Test">
+        <classes>
+            <class name="KapDemo.ChatMessageTest">
+                <methods>
+                    <include name="ChatMessageTest"/>
+                </methods>
+            </class>
+            <class name="KapDemo.CreateNote">
+                <methods>
+                    <include name="CreateNote"/>
+                </methods>
+            </class>
+            <class name="KapDemo.Disposition">
+                <methods>
+                    <include name="Disposition"/>
+                </methods>
+            </class>
+            <class name="KapDemo.HistoryTab">
+                <methods>
+                    <include name="HistoryTab"/>
+                </methods>
+            </class>
+            <class name="KapDemo.PastTicket">
+                <methods>
+                    <include name="PatTicket"/>
+                </methods>
+            </class>
+            <class name="KapDemo.SubTicket">
+                <methods>
+                    <include name="SubTicket"/>
+                </methods>
+            </class>
+            <class name="KapDemo.TicketCreation">
+                <methods>
+                    <include name="TicketCreation"/>
+                </methods>
+            </class>
+            <class name="KapDemo.TicketReopen">
+                <methods>
+                    <include name="TicketReopen"/>
+                </methods>
+            </class>
+            <class name="KapDemo.TicketSearchByEmail">
+                <methods>
+                    <include name="TicketSearchByEmail"/>
+                </methods>
+            </class>
+            <class name="KapDemo.TicketSearchByPhoneNumer">
+                <methods>
+                    <include name="TicketSearchByPhoneNumer"/>
+                </methods>
+            </class>
+            <class name="KapDemo.TicketSearchByTicketId">
+                <methods>
+                    <include name="TicketSearchByTicketId"/>
+                </methods>
+            </class>
+            <class name="KapDemo.ViewOrder">
+                <methods>
+                    <include name="viewOrder"/>
+                </methods>
+        </classes>
+    </test>
+</suite>
