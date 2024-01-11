@@ -18,7 +18,7 @@ public class LoginClassForTestingHeadLes {
 
         // To disable the notifications
         ChromeOptions options = new ChromeOptions();
-        //options.setHeadless(true);
+        options.setHeadless(true);
         options.addArguments("--disable-notifications");
 
         ChromeDriver driver = new ChromeDriver(options);
