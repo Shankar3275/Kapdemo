@@ -4,12 +4,18 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+
+import java.time.Duration;
+
 import static KapDemo.Login.driver;
 @Listeners(ForScreenShot.class)
 
 public class TicketCreation {
+    private WebDriver driver;
     @Test(retryAnalyzer = MyRetry.class)
     public void TicketCreation() throws InterruptedException {
         Login TicketCreation = new Login();
@@ -64,7 +70,9 @@ public class TicketCreation {
         //To store ticket detailes
         String ticketid = driver.findElement(By.xpath("//p[text()='Ticket ID']/following-sibling::a")).getText();
         Thread.sleep(3000);
+            System.out.println("--------------------------------------------------------------");
         System.out.println(ticketid);
+            System.out.println("----------------------------------------------------------------");
     }
 
 }

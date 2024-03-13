@@ -27,5 +27,5 @@ public class Logout {
         Thread.sleep(2000);
         dropdownElement.click();
         System.out.println("headless");
+        }
     }
-}

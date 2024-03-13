@@ -17,6 +17,7 @@ public class TicketReopen {
         ChromeDriver driver = TicketReopen.login();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         Thread.sleep(3000);
+
         //Click on serach box and enter the ticket id
         driver.findElement(By.xpath("//header/div[1]/div[1]/div[2]/form[1]/div[1]/input[1]")).click();
         driver.findElement(By.xpath("//header/div[1]/div[1]/div[2]/form[1]/div[1]/input[1]"))

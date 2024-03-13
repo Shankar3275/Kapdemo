@@ -30,7 +30,7 @@ public class Login {
         //Enter Username
         driver.findElement(By.xpath("//*[@id=\"fuse-layout\"]/div/div/div/div/div[1]/div[2]/div/div/form/div[1]/div/div/input")).sendKeys("kapdemo");
         //Enter password
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         driver.findElement(By.xpath("//*[@id=\"fuse-layout\"]/div/div/div/div/div[1]/div[2]/div/div/form/div[2]/div/div/input")).sendKeys("Kapdemo@23");
         //Click on login
         driver.findElement(By.xpath("//*[@id=\"fuse-layout\"]/div/div/div/div/div[1]/div[2]/div/div/form/button/span[1]")).click();

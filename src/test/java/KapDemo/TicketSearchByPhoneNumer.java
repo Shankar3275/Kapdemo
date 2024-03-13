@@ -23,5 +23,5 @@ public class TicketSearchByPhoneNumer {
         driver.findElement(By.xpath("//header/div[1]/div[1]/div[2]/form[1]/div[1]/input[1]")).sendKeys("8547872521");
         //click on enter from keyboard
         driver.findElement(By.xpath("//header/div[1]/div[1]/div[2]/form[1]/div[1]/input[1]")).sendKeys(Keys.ENTER);
-    }
+}
 }
